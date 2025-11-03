@@ -143,29 +143,6 @@
   --container-lg: 1024px;
   --container-xl: 1280px;
 }
-.about-subtitle {
-  font-size: var(--fs-h3);
-  margin-bottom: var(--sp-l);
-  color: var(--portfolio-primary);
-}
-
-.strengths-list {
-  list-style: none;
-  margin-bottom: var(--sp-xl);
-}
-
-.strengths-list li {
-  padding: var(--sp-m);
-  margin-bottom: var(--sp-m);
-  background: var(--portfolio-bg-light);
-  border-radius: var(--radius);
-  border-left: 4px solid var(--portfolio-secondary);
-  line-height: var(--lh-normal);
-}
-
-.strengths-list strong {
-  color: var(--portfolio-primary);
-}
 /* Dark mode colors */
 @media (prefers-color-scheme: dark) {
   :root {
